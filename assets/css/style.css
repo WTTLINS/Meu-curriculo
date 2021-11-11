@@ -1,6 +1,7 @@
 body {
   background-color: #cecece;
   font-family: 'Raleway', sans-serif;
+  margin: 0;
   /*  background-image: url(/assets/img/fundo.jpg); */ /* fundo da tela */
   /* background-repeat: no-repeat; */ /* a imagem não se repete */
   /* background-position: center center; */ /* centraliza a imagem, dá pra usar % */
@@ -44,11 +45,43 @@ h2 {
   letter-spacing: -1px;
 }
 
+h4 {
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-weight: 100px;
+}
+
 p {
-  color: #0a0a0a;
   line-height: 25px;
+  margin-top: 0;
+}
+
+.social-links {
+  text-decoration: none;
 }
 
 .social-icons {
   width: 20px;
+}
+
+.github {
+  margin: 0 15px 0 15px;
+}
+
+.jobs-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
