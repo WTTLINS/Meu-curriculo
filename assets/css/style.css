@@ -1,0 +1,44 @@
+body {
+  background-color: #cecece;
+  font-family: 'Raleway', sans-serif;
+  /*  background-image: url(/assets/img/fundo.jpg); */ /* fundo da tela */
+  /* background-repeat: no-repeat; */ /* a imagem não se repete */
+  /* background-position: center center; */ /* centraliza a imagem, dá pra usar % */
+  /* background-size: cover; */ /* ocupa a tela toda , cobre a tela */
+  /* background-attachment: fixed; */ /* mantém a imagem fixa na hora de rolar a tela */
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.foto {
+  width: 200px;
+  border: 2px solid black; /* isto é um shorthand 'atalho que simplifica o código */
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+  border-radius: 50%;
+  margin: 30px 30px 30px 30px; /* shorthand */
+}
+
+h1 {
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 0;
+  font-style: italic;
+  color: rgb(32, 32, 32);
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+p {
+  color: #0a0a0a;
+  line-height: 25px;
+}
